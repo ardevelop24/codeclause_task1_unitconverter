@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unit Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Unit Converter</h1>
+	<div id="converter">
+		<input type="number" id="input" placeholder="Enter a value to convert:">
+		<select id="from">
+			<option value="inches">Inches</option>
+			<option value="feet">Feet</option>
+			<option value="yards">Yards</option>
+			<option value="miles">Miles</option>
+			<option value="centimeters">Centimeters</option>
+			<option value="meters">Meters</option>
+			<option value="kilometers">Kilometers</option>
+		</select>
+		<button id="convert" onclick="convert()">Convert</button>
+		<select id="to">
+			<option value="inches">Inches</option>
+			<option value="feet">Feet</option>
+			<option value="yards">Yards</option>
+			<option value="miles">Miles</option>
+			<option value="centimeters">Centimeters</option>
+			<option value="meters">Meters</option>
+			<option value="kilometers">Kilometers</option>
+		</select>
+		<input type="text" id="output" readonly>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
